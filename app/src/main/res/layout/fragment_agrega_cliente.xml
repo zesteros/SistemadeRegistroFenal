@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zesters.sistemaderegistrofenal.AgregaClienteFragment"
+    android:background="@color/cyan_800">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_marginTop="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:padding="17dp"
+            android:hint="@string/text_numero_cliente"
+            android:textColorHint="@color/light_blue_50"
+            android:ems="10"
+            android:id="@+id/numero_cliente"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre_cliente"
+            android:padding="17dp"
+            android:hint="@string/text_nombre_cliente"
+            android:textColorHint="@color/light_blue_50"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/numero_cliente" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="17dp"
+            android:hint="@string/text_procedencia"
+            android:textColorHint="@color/light_blue_50"
+            android:id="@+id/ciudad_procedencia"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nombre_cliente" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="17dp"
+            android:id="@+id/correo"
+            android:hint="@string/text_correo"
+            android:textColorHint="@color/light_blue_50"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ciudad_procedencia" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="17dp"
+            android:inputType="number"
+            android:hint="@string/text_numero_telefonico"
+            android:textColorHint="@color/light_blue_50"
+            android:ems="10"
+            android:focusableInTouchMode="true"
+            android:id="@+id/celular"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/correo" />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="17dp"
+        android:text="@string/boton1"
+        android:backgroundTint="@color/cyan_600"
+        android:id="@+id/aceptar_cliente"
+        android:textSize="24sp"
+        android:onClick="aceptar_cliente"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

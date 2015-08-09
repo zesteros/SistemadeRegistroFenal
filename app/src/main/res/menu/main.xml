@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/menu_info"
+        android:title="@string/menu_info"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/salir"
+        android:title="@string/salir"
+        android:orderInCategory="300">
+    </item>
+    <item
+        android:title="@string/language_setting"
+        android:id="@+id/language_settings"
+        android:orderInCategory="200">
+        <menu>
+            <item
+                android:title="@string/spanish_language"
+                android:id="@+id/spanish"
+                android:orderInCategory="100">
+            </item>
+            <item
+                android:title="@string/english_language"
+                android:id="@+id/english"
+                android:orderInCategory="200">
+            </item>
+        </menu>
+    </item>
+</menu>

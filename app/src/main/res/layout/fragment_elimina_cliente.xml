@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zesters.sistemaderegistrofenal.EliminaClienteFragment"
+    android:background="@color/cyan_800">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout6">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_titulo_borrar_cliente"
+            android:id="@+id/titulo_busca_cliente"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey_hint"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_busca_cliente"
+            android:hint="@string/text_numero_cliente"
+            android:layout_below="@+id/titulo_busca_cliente"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_above="@+id/linearLayout7"
+        android:id="@+id/linearLayout8">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datos_cliente"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@color/cyan_50"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/edit_busca_cliente"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/boton_buscar"
+            android:layout_weight="0.90"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout7"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_buscar"
+            android:id="@+id/boton_buscar"
+            android:textSize="20dp"
+            android:backgroundTint="@color/cyan_600"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_borrar_registro"
+            android:id="@+id/boton_borrar_registro"
+            android:textSize="20dp"
+            android:gravity="right"
+            android:backgroundTint="@color/cyan_600"/>
+    </LinearLayout>
+
+</RelativeLayout>

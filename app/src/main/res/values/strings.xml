@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Registro FENAL</string>
+
+    <string name="title_main_welcome">Bienvenido al sistema de registro de la FENAL</string>
+    <string name="title_main_ask_add">¿Qué desea agregar?</string>
+    <string name="title_main_menu">Menú Principal</string>
+    <string name="title_add_register">Agregar Registro</string>
+    <string name="title_search_customer">Buscar Cliente</string>
+    <string name="title_search_book">Buscar Libro</string>
+    <string name="title_delete_customer">Eliminar Cliente</string>
+    <string name="title_book_list">Listado de Libros</string>
+    <string name="title_editorial_list">Listado de Editoriales</string>
+    <string name="title_customize_register">Modificar Registro</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="customer_number">Número de Cliente</string>
+    <string name="customer_name">Nombre del Cliente</string>
+    <string name="customer_city">Ciudad de Procedencia</string>
+    <string name="customer_email">Correo Electrónico</string>
+    <string name="customer_phone">Número Telefónico</string>
+    
+    <string name="book_isbn">ISBN</string>
+    <string name="book_name">Nombre del Libro</string>
+    <string name="book_author">Autor</string>
+    <string name="book_editorial">Editorial</string>
+    <string name="book_genus">Género</string>
+
+    <string name="book_genus_education">Educativo</string>
+    <string name="book_genus_programming">Programación</string>
+    <string name="book_genus_horror">Terror</string>
+    <string name="book_genus_suspense">Suspenso</string>
+    <string name="book_genus_others">Otros</string>
+
+    <string name="book_cost">Costo</string>
+    
+    <string name="add_register">¿Qué desea registrar?</string>
+
+    <string name="add_register_message">¿Qué desea agregar?</string>
+    <string name="add_customer">Agregar Cliente</string>
+    <string name="add_book">Agregar Libro</string>
+
+    <string name="add_register_success">Registro agregado correctamente</string>
+    <string name="field_empty">Por favor, escribe en los campos correspondientes</string>
+
+    <string name="data_found">Registro encontrado satisfactoriamente</string>
+    <string name="data_dont_found">Registro no encontrado</string>
+
+    <string name="message_search_customer">Ingresa el no. de cliente a buscar</string>
+    <string name="message_search_book">Ingresa el ISBN del libro a buscar</string>
+
+    <string name="number_register">"Registro no.</string>
+
+    <string name="nav_drawer_header_msg">IR AL MENÚ PRINCIPAL</string>
+
+    <string name="subtitle_nav_drawer">FENAL SISTEMA DE REGISTRO</string>
+
+    <string name="subtitle_search_register">Buscar en el Registro</string>
+
+    <string name="menu_info">Acerca de</string>
+
+    <string name="texto1">Bienvenido al sistema de registro de la Feria Nacional del Libro</string>
+    <string name="texto2">¿Qué desea hacer?</string>
+
+    <string name="text_numero_cliente">NÚMERO DE CLIENTE </string>
+    <string name="text_nombre_cliente">NOMBRE </string>
+    <string name="text_procedencia">CIUDAD DE PROCENDENCIA </string>
+    <string name="text_correo">CORREO ELECTRÓNICO </string>
+    <string name="text_numero_telefonico">NÚMERO TELEFÓNICO </string>
+
+    <string name="text_isbn">ISBN </string>
+    <string name="text_nombre_libro">NOMBRE DEL LIBRO </string>
+    <string name="text_autor">AUTOR </string>
+    <string name="text_editorial">EDITORIAL </string>
+    <string name="text_genero">GÉNERO </string>
+    <string name="genero_suspenso">Suspenso</string>
+    <string name="genero_terror">Terror</string>
+    <string name="genero_educativo">Educación</string>
+    <string name="genero_programacion">Programación</string>
+    <string name="genero_otros">Otros</string>
+
+    <string name="selecciona_genero">Selecciona el nuevo género</string>
+
+    <string name="text_costo">COSTO </string>
+
+    <string name="text_titulo_busca_cliente">INGRESA EL NÚMERO DE CLIENTE A BUSCAR:</string>
+    <string name="customer_dont_found">No se pudo encontrar el cliente</string>
+    <string name="book_dont_found">No se pudo encontrar el libro</string>
+
+    <string name="write_customer_data">Por favor, escribe el cliente a buscar</string>
+    <string name="write_book_data">Por favor, escribe el ISBN a buscar</string>
+    <string name="text_titulo_borrar_cliente">INGRESA EL NÚMERO DE CLIENTE A ELIMINAR:</string>
+    <string name="subtitle_delete">Eliminar Registro</string>
+    <string name="customer_deleted">Cliente eliminado exitosamente</string>
+    <string name="field_delete_customer_empty">Por favor, escribe el cliente a eliminar</string>
+    <string name="text_titulo_modificar_cliente">INGRESA EL NÚMERO DE CLIENTE A MODIFICAR</string>
+    <string name="text_titulo_modifica_libro">INGRESA EL ISBN DEL LIBRO A MODIFICAR</string>
+    <string name="text_titulo_busca_isbn">INGRESA EL ISBN DEL LIBRO A BUSCAR:</string>
+    <string name="text_modificar_title">¿Qué desea modificar?</string>
+    <string name="text_modificar_cliente">MODIFICAR REGISTRO DE CLIENTES</string>
+    <string name="text_modificar_libros">MODIFICAR REGISTRO DE LIBROS</string>
+    <string name="options_menu">SELECCIONA UNA OPCIÓN</string>
+    <string name="edit_value">INGRESA EL NUEVO VALOR</string>
+    <string name="boton1">AÑADIR REGISTRO</string>
+    <string name="boton1_2">ACEPTAR CAMBIOS</string>
+    <string name="boton2">BUSCAR CLIENTE POR NÚMERO DE CLIENTE</string>
+    <string name="boton3">BUSCAR LIBRO POR ISBN</string>
+    <string name="boton4">ELIMINAR UN CLIENTE</string>
+    <string name="boton5">LISTADO DE TODOS LOS LIBROS</string>
+    <string name="boton6">LISTADO DE EDITORIALES</string>
+    <string name="boton7">MODIFICAR REGISTRO</string>
+    <string name="customer">Cliente</string>
+    <string name="book">Libro</string>
+    <string name="boton_borrar_registro">BORRAR REGISTRO</string>
+    <string name="titulo_borrar_registro_alert">CONFIRMACIÓN DE CAMBIOS</string>
+    <string name="contenido_borrar_registro_alert">¿Estas seguro de borrar el registro?</string>
+    <string name="contenido_modificar_registro_alert">¿Estas seguro de modificar el registro?</string>
+    <string name="titulo_cliente_no_encontrado_alert">No se encontró el registro</string>
+
+    <string name="titulo_cliente_borrado_alert">Cliente Borrado</string>
+    <string name="contenido_cliente_borrado">Cliente borrado exitosamente</string>
+
+    <string name="aceptar_alert">Aceptar</string>
+    <string name="declinar_alert">Cancelar</string>
+
+    <string name="isbn">ISBN:</string>
+    <string name="nombre_libro">Nombre del Libro:</string>
+    <string name="autor">Autor:</string>
+
+    <string name="text_buscar">BUSCAR</string>
+
+    <string name="title_activity_anade_registro">Añadir Registro</string>
+    <string name="title_activity_anade_libro">Agregar Libro</string>
+    <string name="title_activity_anade_cliente">Agregar Cliente</string>
+    <string name="title_activity_busca_cliente">Buscar Cliente</string>
+    <string name="title_activity_busca_isbn">Buscar libro por ISBN</string>
+    <string name="title_activity_elimina_cliente">Elminar Cliente</string>
+    <string name="subtitle_list_register">Listado del Registro</string>
+    <string name="title_activity_lista_libros">Lista de Libros</string>
+    <string name="title_activity_lista_editorial">Editoriales</string>
+
+    <string name="title_activity_modifica_registro">Modificar Registro</string>
+    <string name="title_activity_modifica_cliente">Modificar Cliente</string>
+    <string name="title_activity_modifica_libro">Modificar Libro</string>
+    <string name="edit_register_success">Cliente modificado correctamente</string>
+    <string name="edit_book_success">Libro modificado correctamente</string>
+    <string name="add_book_success">Libro registrado correctamentte</string>
+
+    <string name="muestra_info_app">Acerca de</string>
+    <string name="datos_developer1">
+        Creador: Angelo de Jesús Loza Martínez\nEstudiante del Instituto Tecnológico de León</string>
+    <string name="datos_developer2">Versión: 1.0</string>
+    <string name="datos_title">Acerca de</string>
+    <string name="salir">Salir</string>
+    <string name="despedida">Gracias por usar esta app, ¡hasta luego!</string>
+
+    <string name="language_setting">Cambiar Idioma (Change Language)</string>
+    <string name="spanish_language">Español (Spanish)</string>
+    <string name="english_language">Inglés (English)</string>
+    
+
+</resources>

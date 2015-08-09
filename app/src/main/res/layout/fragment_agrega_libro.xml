@@ -1,0 +1,117 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zesters.sistemaderegistrofenal.AgregaLibroFragment"
+    android:background="@color/cyan_800">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_isbn"
+            android:inputType="text"
+            android:hint="@string/text_isbn"
+            android:textColorHint="@color/light_blue_50"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_nombre_libro"
+            android:textColorHint="@color/light_blue_50"
+            android:id="@+id/edit_nombre_libro"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_autor"
+            android:textColorHint="@color/light_blue_50"
+            android:hint="@string/text_autor"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="@string/text_editorial"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/light_blue_50"
+            android:id="@+id/edit_editorial"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_genero"
+            android:textSize="19sp"
+            android:textColor="@color/cyan_50"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/generos">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/genero_educativo"
+                android:id="@+id/radio_button_educativo"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/genero_programacion"
+                android:id="@+id/radio_button_programacion"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/genero_terror"
+                android:id="@+id/radio_button_terror"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/genero_suspenso"
+                android:id="@+id/radio_button_suspenso"
+                android:checked="false" />
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/text_costo"
+            android:textColorHint="@color/light_blue_50"
+            android:id="@+id/edit_costo"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton1"
+        android:textColorHint="@color/light_blue_50"
+        android:id="@+id/anade_libro_button"
+        android:backgroundTint="@color/cyan_600"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
